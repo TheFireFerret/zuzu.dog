@@ -9,7 +9,7 @@
         }
 
         body {
-            background-color: #0a072e;
+            background-color: #E6B0E8;
         }
 
         #userPhoto {
@@ -17,10 +17,10 @@
             height: 96px;
             display: block;
             margin: 35px auto 20px;
-            -w/*ebkit-box-shadow: 0px 6px 0px 0px rgba(222, 218, 162, 1);
-            -moz-box-shadow: 0px 6px 0px 0px rgba(222, 218, 162, 1);
-            box-s*/hadow: 0px 6px 0px 0px rgba(222, 218, 162, 1);
-            /*transition: all 0.15s;*/
+            /*border-radius: 50%;*/
+            /*box-shadow: 0px 6px 0px 0px rgba(237, 194, 255, 1);*/
+            box-shadow: 0px 6px #EDC2FF;
+
         }
 
 /*        #userPhoto:hover {
@@ -34,15 +34,22 @@
         }*/
 
         #userName {
-            color: white;
+            color: black;
             font-size: 1rem;
             font-weight: 600;
             line-height: 1.25;
             display: block;
             font-family: var(--font);
-            width: 100%;
             text-align: center;
             text-decoration: none;
+            background-color: #FFCFE9;
+            max-width: 150px;
+            width: auto;
+            display: block;
+            margin: 27px auto;
+            padding: 10px;
+            box-shadow: 0px 6px #EDC2FF;
+
         }
 
         #links {
@@ -64,28 +71,29 @@
 
         .link {
             display: block;
-            background-color: #01A79B;
+            background-color: #FFCAC2;
             color: #fff;
             font-family: var(--font);
             text-align: center;
+            color: black;
             margin-bottom: 20px;
             padding: 17px;
             text-decoration: none;
             font-size: 1rem;
             font-weight: bold;
             transition: all 0.15s;
-            box-shadow: 0px 6px #007569;
+            box-shadow: 0px 6px #E8B0B3;
         }
 
         .link:hover {
             /* background: #019489; */
-            box-shadow: 0px 8px #007569;
+            box-shadow: 0px 8px #E8B0B3;
             transform: translateY(-2px);
         }
 
         .link:active {
             transform: translateY(6px);
-            box-shadow: 0px 0px #007569;
+            box-shadow: 0px 0px #E8B0B3;
         }
 
         #proker {
@@ -103,29 +111,6 @@
         .footer a {
             text-decoration: none;
         }
-
-        .media {
-            background: #DD5A79;
-            width: 38px;
-            height: 38px;
-            text-align: center;
-            color: white;
-            margin-bottom: 40px;
-            box-shadow: 0px 6px #9E4355;
-            transition: all 0.15s;
-        }
-
-        .media:hover {
-            box-shadow: 0px 8px #9E4355;
-            transform: translateY(-2px);
-        }
-
-        .media:active {
-            transform: translateY(6px);
-            box-shadow: 0px 0px #9E4355;
-        }
-
-
     </style>
     <div class='navbar no-items section' id='navbar'></div>
         <img alt='User Photo' id='userPhoto' src='img/zuzu.jpg'/>
