@@ -1,0 +1,21 @@
+# Ignore build directories
+dist/
+build/
+_site/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore GemFiles for local development
+GemFile
+GemFile.lock
+.DS_Store
